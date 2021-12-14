@@ -7,3 +7,25 @@
   font-size: 2em;
   text-align: center;
 }
+
+button{
+  padding: 5px 15px;
+  background-color: #fff;
+  border:2px solid #f3f3f3;
+}
+
+button[type="primary"]{
+  background-color: blue !important;
+}
+
+button[type="dashed"]{
+  border: dashed;
+}
+
+button[type="text"]{
+  border: none;
+}
+
+button[type="link"]{
+  color: blue !important;
+}
